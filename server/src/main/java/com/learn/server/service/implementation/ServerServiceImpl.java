@@ -12,6 +12,11 @@ public class ServerServiceImpl implements ServerService {
     }
 
     @Override
+    public Server ping(String ipAddress) {
+        return null;
+    }
+
+    @Override
     public Collection<Server> list(int limit) {
         return null;
     }
