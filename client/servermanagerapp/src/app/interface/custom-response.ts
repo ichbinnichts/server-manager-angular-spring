@@ -1,5 +1,5 @@
 import { Server } from './server';
-export interface customResponse{
+export interface CustomResponse{
     timeStamp: Date,
     statusCode: number,
     status: string,
